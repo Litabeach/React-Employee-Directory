@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import API from "../utils/API";
 
-class OmdbContainer extends Component {
+class EmpTable extends Component {
   state = {
     result: {},
        //should result be a []? 
@@ -123,4 +123,6 @@ render() {
 }
 }
 
-export default OmdbContainer;
+export default EmpTable;
+
+
