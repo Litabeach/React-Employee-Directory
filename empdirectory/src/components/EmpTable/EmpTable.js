@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import API from "../../utils/API";
 import SearchRes from "../SearchRes/SearchRes";
 import Employee from "../Employee/Employee";
+import Navbar from "../Navbar/Navbar";
 
 
 class EmpTable extends Component {
@@ -35,62 +36,15 @@ class EmpTable extends Component {
 
 //   handleSubmit = event => {
 //     event.preventDefault()
-
-//     if (`${this.state.order}` == "" || `${this.state.order}` == "descending") {
-
-//         this.setState({
-//             order: "ascending"
-//         })
-
-//         const sortedEmployee = this.state.result.sort((a, b) => {
-//             let nameA = a.name.first;
-//             let nameB = b.name.first;
-
-//             if (nameA < nameB) {
-//                 return -1
-//             }
-
-//             return 0;
-//         });
-
-//         console.log(sortedEmployee)
-
-//         this.setState({
-//             result: sortedEmployee
-//         })
-//     }
-
-//     else if (`${this.state.order}` == "ascending") {
-
-//         this.setState({
-//             order: "descending"
-//         })
-
-//         const sortedEmployee = this.state.result.sort((a, b) => {
-//             let nameA = a.name.first;
-//             let nameB = b.name.first;
-
-//             if (nameA > nameB) {
-//                 return -1
-//             }
-//             return 0;
-//         });
-
-//         this.setState({
-//             result: sortedEmployee
-//         })
-//     }
 // }
-
-
 
 render() {
   return (
       <div>
-          {/* <Search
+          <Navbar
               value={this.state.search}
               handleInputChange={this.handleInputChange}
-          /> */}
+          />
           <table id="table" className="table table-striped table-hover table-condensed">
               <thead>
                   <tr>
@@ -114,12 +68,12 @@ render() {
               </th>
                   </tr>
               </thead>
-
+{/* 
               {!this.state.search ? (
                   <Employee results={this.state.result} />
               ) : (
                   <SearchRes results={this.state.result} value={this.state.search} />
-              )}
+              )} */}
           </table>
       </div>
   );
