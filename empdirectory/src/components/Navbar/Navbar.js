@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 // import EmpTable from "./EmpTable";
 
 function Navbar() {
