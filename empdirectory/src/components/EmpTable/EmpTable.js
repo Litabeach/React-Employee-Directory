@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import API from "../utils/API";
+import API from "../../utils/API";
+import SearchRes from "../../SearchRes";
+import Employee from "../../Employee";
+
 
 class EmpTable extends Component {
   state = {
@@ -112,11 +115,11 @@ render() {
                   </tr>
               </thead>
 
-              {/* {!this.state.search ? (
-                  <FullEmployee results={this.state.result} />
+              {!this.state.search ? (
+                  <Employee results={this.state.result} />
               ) : (
-                  <SearchResults results={this.state.result} value={this.state.search} />
-              )} */}
+                  <SearchRes results={this.state.result} value={this.state.search} />
+              )}
           </table>
       </div>
   );

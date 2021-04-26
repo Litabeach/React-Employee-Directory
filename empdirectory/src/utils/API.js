@@ -1,6 +1,6 @@
 import axios from "axios";
 
-//export below gets all users (getUsers)
+//API call to get all employees. Use API.getEmp to reference this call.
 export default {
   getEmp: function() {
 
