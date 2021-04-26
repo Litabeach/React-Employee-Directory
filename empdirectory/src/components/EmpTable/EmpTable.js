@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-import SearchRes from "../../SearchRes";
-import Employee from "../../Employee";
+import SearchRes from "../SearchRes/SearchRes";
+import Employee from "../Employee/Employee";
 
 
 class EmpTable extends Component {
