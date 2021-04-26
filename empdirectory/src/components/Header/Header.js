@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.css";
 
 
 function Header() {
-    return (<div>
+    return (<div className ="header">
         <h1> Employee Directory </h1>
-        <h3> Use the search box to narrow your results.</h3>
+        <h5> Use the search box to narrow your results.</h5>
     </div>
     );
 }

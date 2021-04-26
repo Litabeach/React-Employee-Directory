@@ -1,6 +1,5 @@
 import React from "react";
-
-
+// import EmpTable from "./EmpTable";
 
 function Navbar() {
     return (
@@ -9,13 +8,26 @@ function Navbar() {
             <div className="navbar-collapse row" id="navbarNav">
 
                 <div className="searchbox"><form className="form-inline">
-                    <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
+                    <input 
+                        // value={props.search}
+                        // onChange={props.handleInputChange}
+                        name="term"
+                        list="term"
+                        type="search"
+                        //should type be text?
+                        className="form-control"
+                        id="term"
+                        className="form-control" 
+                        placeholder="Search" 
+                        aria-label="Search" />
                 </form>
                 </div>
             </div>
         </nav>
 
+
     );
 }
 
 export default Navbar;
+

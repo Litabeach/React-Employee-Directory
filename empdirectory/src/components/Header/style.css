@@ -1,0 +1,7 @@
+.header {
+    background-color: rgb(16,29,66);
+    color: white;
+    text-align: center;
+    border-bottom: solid red;
+    padding:30px;
+}
