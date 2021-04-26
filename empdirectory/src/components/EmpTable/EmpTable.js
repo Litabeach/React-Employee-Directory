@@ -7,10 +7,10 @@ import Navbar from "../Navbar/Navbar";
 
 class EmpTable extends Component {
   state = {
-    result: {},
-       //should result be a []? 
+    result: [],
+       //should result be a {}? 
     search: "",
-    // order: ""
+    order: ""
   };
 
   // When this component mounts
@@ -20,11 +20,12 @@ class EmpTable extends Component {
 
   searchEmp = () => {
     API.getEmp()
-      .then(res => this.setState({ result: res.data }))
-      // .then(res => console.log(res))
+      .then(res => this.setState({ result: res.data.results }))
+      .then(res => console.log(res))
       .catch(err => console.log(err));
   };
 
+  
   handleInputChange = event => {
     let value = event.target.value;
     const name = event.target.name;
@@ -68,12 +69,12 @@ render() {
               </th>
                   </tr>
               </thead>
-{/* 
+
               {!this.state.search ? (
                   <Employee results={this.state.result} />
               ) : (
                   <SearchRes results={this.state.result} value={this.state.search} />
-              )} */}
+              )}
           </table>
       </div>
   );

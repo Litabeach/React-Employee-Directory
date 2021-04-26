@@ -9,7 +9,7 @@ function Employee(props) {
       {props.results.map(result => (
           <tr key={result.login.uuid}>
               <td data-th="image">
-                  <img src={result.picture.medium}></img>
+                  <img src={result.picture.medium} alt={ `headshot of: ${result.name.first} ${result.name.last}` } ></img> 
               </td>
               <td data-th="name">
                   {result.name.first} {result.name.last}

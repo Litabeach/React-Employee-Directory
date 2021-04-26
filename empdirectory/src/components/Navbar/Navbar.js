@@ -18,7 +18,6 @@ function Navbar() {
                         //should type be text?
                         className="form-control"
                         id="term"
-                        className="form-control" 
                         placeholder="Search" 
                         aria-label="Search" />
                 </form>
