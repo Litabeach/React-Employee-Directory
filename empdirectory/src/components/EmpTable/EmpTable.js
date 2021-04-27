@@ -26,13 +26,9 @@ class EmpTable extends Component {
       .catch(err => console.log(err));
   };
 
-  
+
   handleInputChange = event => {
-    let value = event.target.value;
-    const name = event.target.name;
-    this.setState({
-      [name]: value
-    });
+    this.setState({ search: event.target.value });
   };
 
   handleSubmit = event => {

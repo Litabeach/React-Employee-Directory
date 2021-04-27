@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 
-function Navbar() {
+function Navbar(props) {
     return (
         <nav className="navbar navbar-expand navbar-light bg-light">
 
@@ -10,8 +10,8 @@ function Navbar() {
 
                 <div className="searchbox"><form className="form-inline">
                     <input 
-                        // value={props.search}
-                        // onChange={props.handleInputChange}
+                        value={props.search}
+                        onChange={props.handleInputChange}
                         name="term"
                         list="term"
                         type="search"
