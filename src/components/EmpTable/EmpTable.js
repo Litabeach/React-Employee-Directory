@@ -9,7 +9,6 @@ import "./style.css";
 class EmpTable extends Component {
   state = {
     result: [],
-       //should result be a {}? 
     search: "",
     order: ""
   };
@@ -19,18 +18,20 @@ class EmpTable extends Component {
     this.searchEmp();
   }
 
+  //API call to get employees
   searchEmp = () => {
     API.getEmp()
       .then(res => this.setState({ result: res.data.results }))
-      .then(res => console.log(res))
+    //   .then(res => console.log(res))
       .catch(err => console.log(err));
   };
 
-
+  //search for the value of what is types in the search box as it is typed
   handleInputChange = event => {
     this.setState({ search: event.target.value });
   };
 
+  //change from ascending to descending order and vice versa
   handleSubmit = event => {
     event.preventDefault()
 
