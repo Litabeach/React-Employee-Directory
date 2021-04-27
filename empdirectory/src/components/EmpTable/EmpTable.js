@@ -40,7 +40,7 @@ class EmpTable extends Component {
             order: "ascending"
         })
 
-        const sortedEmployee = this.state.result.sort((a, b) => {
+        const azEmployee = this.state.result.sort((a, b) => {
             let nameA = a.name.last;
             let nameB = b.name.last;
 
@@ -51,10 +51,8 @@ class EmpTable extends Component {
             return 0;
         });
 
-        console.log(sortedEmployee)
-
         this.setState({
-            result: sortedEmployee
+            result: azEmployee
         })
     }
 
@@ -64,7 +62,7 @@ class EmpTable extends Component {
             order: "descending"
         })
 
-        const sortedEmployee = this.state.result.sort((a, b) => {
+        const azEmployee = this.state.result.sort((a, b) => {
             let nameA = a.name.last;
             let nameB = b.name.last;
 
@@ -75,7 +73,7 @@ class EmpTable extends Component {
         });
 
         this.setState({
-            result: sortedEmployee
+            result: azEmployee
         })
     }
 }
