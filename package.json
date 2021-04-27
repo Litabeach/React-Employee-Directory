@@ -14,6 +14,8 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+  
+  "homepage": "https://myusername.github.io/my-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
