@@ -3,6 +3,7 @@ import API from "../../utils/API";
 import SearchRes from "../SearchRes/SearchRes";
 import Employee from "../Employee/Employee";
 import Navbar from "../Navbar/Navbar";
+import "./style.css";
 
 
 class EmpTable extends Component {
@@ -34,10 +35,54 @@ class EmpTable extends Component {
     });
   };
 
+  handleSubmit = event => {
+    event.preventDefault()
 
-//   handleSubmit = event => {
-//     event.preventDefault()
-// }
+    if (`${this.state.order}` === "" || `${this.state.order}` === "descending") {
+
+        this.setState({
+            order: "ascending"
+        })
+
+        const sortedEmployee = this.state.result.sort((a, b) => {
+            let nameA = a.name.last;
+            let nameB = b.name.last;
+
+            if (nameA < nameB) {
+                return -1
+            }
+
+            return 0;
+        });
+
+        console.log(sortedEmployee)
+
+        this.setState({
+            result: sortedEmployee
+        })
+    }
+
+    else if (`${this.state.order}` === "ascending") {
+
+        this.setState({
+            order: "descending"
+        })
+
+        const sortedEmployee = this.state.result.sort((a, b) => {
+            let nameA = a.name.last;
+            let nameB = b.name.last;
+
+            if (nameA > nameB) {
+                return -1
+            }
+            return 0;
+        });
+
+        this.setState({
+            result: sortedEmployee
+        })
+    }
+}
 
 render() {
   return (
@@ -52,11 +97,12 @@ render() {
                       <th>
                           Image
               </th>
-                      <th className="pointer"
+                      <th 
+                      className="pointer"
                           data-order={this.state.order}
                           onClick={this.handleSubmit}
                           >
-                          Name
+                          Name ↕
               </th>
                       <th>
                           Phone
