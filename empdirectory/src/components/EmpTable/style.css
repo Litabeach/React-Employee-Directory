@@ -1,8 +1,9 @@
-.pointer {
+.pointerName {
     cursor: pointer;
     size: 100px;
 }
 
-table {
-  margin: 20px;
+.tableWrap {
+    margin-left: 120px;
+    margin-right: 120px;
 }

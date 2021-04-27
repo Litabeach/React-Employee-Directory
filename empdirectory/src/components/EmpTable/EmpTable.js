@@ -80,7 +80,7 @@ class EmpTable extends Component {
 
 render() {
   return (
-      <div>
+      <div class="tableWrap">
           <Navbar
               value={this.state.search}
               handleInputChange={this.handleInputChange}
@@ -92,7 +92,7 @@ render() {
                           Image
               </th>
                       <th 
-                      className="pointer"
+                      className="pointerName"
                           data-order={this.state.order}
                           onClick={this.handleSubmit}
                           >
