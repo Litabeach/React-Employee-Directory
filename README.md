@@ -1,4 +1,4 @@
-# React-Employee-Directory
+# Work-E-Pedia
 
 ## Description 
 
