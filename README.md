@@ -4,7 +4,7 @@
 
 View a directory of employees. Sort and search the directory by name. Built with React.
 
-Visit the site: https://litabeach.github.io/Work-E-Pedia
+Visit the site: https://litabeach.github.io/Work-E-Pedia/
 
 ## Table of Contents
 
