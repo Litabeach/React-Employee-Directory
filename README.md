@@ -17,6 +17,7 @@ Visit the site: https://litabeach.github.io/Work-E-Pedia/
 Users can view non-sensitive data about other employees. Employees can be sorted by last name alphabetically as well as searched by name.
 
 ![Screenshot of app table of employees](public/screenshot.png)
+![Screenshot of app table of employees sorted A-Z](public/screenshot2.png)
 
 
 ## Copyright
