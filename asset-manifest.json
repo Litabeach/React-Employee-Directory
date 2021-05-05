@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Employee-Directory/static/css/main.71b91b35.chunk.css",
-    "main.js": "/React-Employee-Directory/static/js/main.eee8a099.chunk.js",
-    "main.js.map": "/React-Employee-Directory/static/js/main.eee8a099.chunk.js.map",
-    "runtime-main.js": "/React-Employee-Directory/static/js/runtime-main.c4eebff7.js",
-    "runtime-main.js.map": "/React-Employee-Directory/static/js/runtime-main.c4eebff7.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/React-Employee-Directory/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.4480b852.chunk.js": "/React-Employee-Directory/static/js/2.4480b852.chunk.js",
-    "static/js/2.4480b852.chunk.js.map": "/React-Employee-Directory/static/js/2.4480b852.chunk.js.map",
-    "index.html": "/React-Employee-Directory/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/React-Employee-Directory/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.71b91b35.chunk.css.map": "/React-Employee-Directory/static/css/main.71b91b35.chunk.css.map",
-    "static/js/2.4480b852.chunk.js.LICENSE.txt": "/React-Employee-Directory/static/js/2.4480b852.chunk.js.LICENSE.txt"
+    "main.css": "/Work-E-Pedia/static/css/main.71b91b35.chunk.css",
+    "main.js": "/Work-E-Pedia/static/js/main.0a209dc8.chunk.js",
+    "main.js.map": "/Work-E-Pedia/static/js/main.0a209dc8.chunk.js.map",
+    "runtime-main.js": "/Work-E-Pedia/static/js/runtime-main.9f32a592.js",
+    "runtime-main.js.map": "/Work-E-Pedia/static/js/runtime-main.9f32a592.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/Work-E-Pedia/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.4480b852.chunk.js": "/Work-E-Pedia/static/js/2.4480b852.chunk.js",
+    "static/js/2.4480b852.chunk.js.map": "/Work-E-Pedia/static/js/2.4480b852.chunk.js.map",
+    "index.html": "/Work-E-Pedia/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/Work-E-Pedia/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.71b91b35.chunk.css.map": "/Work-E-Pedia/static/css/main.71b91b35.chunk.css.map",
+    "static/js/2.4480b852.chunk.js.LICENSE.txt": "/Work-E-Pedia/static/js/2.4480b852.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4eebff7.js",
+    "static/js/runtime-main.9f32a592.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.4480b852.chunk.js",
     "static/css/main.71b91b35.chunk.css",
-    "static/js/main.eee8a099.chunk.js"
+    "static/js/main.0a209dc8.chunk.js"
   ]
 }
